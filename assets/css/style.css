@@ -32,6 +32,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/*header styling end */
 /* body styling */
 body{
     color: #39a6b2;
@@ -58,6 +59,33 @@ section {
     bottom: 120px;
     right: 140px;
 }
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+.hero-form button{ 
+    background-color: #024e76;
+    color:#fce138;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+}
+.form-input{
+    border: 1 px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.form-input label { 
+    margin: 0 5px;
+}
+/* hero styling end*/
 /* footer styling*/ 
 footer { 
     background: #fce138;
