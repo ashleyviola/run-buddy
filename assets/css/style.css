@@ -39,7 +39,7 @@ header nav ul li a {
     font-size: 22px;
 }
 /*header styling end */
-/* body styling */
+/* general body styling */
 body{
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,6 +61,51 @@ section {
 .secondary-border{
     border-color: #39a6b2;
 }
+/* hero styling*/
+.hero {
+    background-image: url("../Images/hero-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+.hero-form{
+    background-color: #fce138;
+    border: solid 3px #024e76;
+    color: #024e76;
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+.hero-form button{ 
+    background-color: #024e76;
+    color:#fce138;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+}
+.form-input{
+    border: 1 px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.form-input label { 
+    margin: 0 5px;
+}
+/* hero styling end*/
 /* what we do styling */ 
 .intro {
     text-align: center;
@@ -167,51 +212,7 @@ section {
     color: #fce138;
 }
 /* contact styling ends */
-/* hero styling*/
-.hero {
-    background-image: url("../Images/hero-bg.jpeg");
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    position: relative;
-}
-.hero-form{
-    background-color: #fce138;
-    border: solid 3px #024e76;
-    color: #024e76;
-    width: 500px;
-    padding: 20px;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
-}
-.hero-form h3 {
-    font-size: 24px;
-    margin: 0;
-}
-.hero-form p {
-    margin: 5px 0 15px 0;
-}
-.hero-form button{ 
-    background-color: #024e76;
-    color:#fce138;
-    padding: 5px 10px;
-    border: none;
-    font-size: 16px;
-}
-.form-input{
-    border: 1 px solid #024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: #024e76;
-    width: 100%;
-    margin-bottom: 15px;
-}
-.form-input label { 
-    margin: 0 5px;
-}
-/* hero styling end*/
+
 /* footer styling*/ 
 footer { 
     background: #fce138;
@@ -231,4 +232,14 @@ footer div{
 }
 footer a{
     color: #024e76;
+}
+/* privacy policy page start*/ 
+.page-title {
+    color: #fce138;
+    display: inline-block;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
 }
