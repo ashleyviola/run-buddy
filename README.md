@@ -12,3 +12,5 @@ https://ashleyviola.github.io/run-buddy/
 
 ## Contribution 
 Made with ❤ by Ashley Viola 
+
+### ©️2019 Run Buddy, Inc 
