@@ -1,4 +1,4 @@
-# run-buddy
+# Run Buggy Inc.
 
 ## Purpose 
 A website that offers fitness training services. 
